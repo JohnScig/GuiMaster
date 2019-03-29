@@ -76,9 +76,6 @@ namespace GuiMaster
 
         private void numeric_Size_ValueChanged(object sender, EventArgs e)
         {
-            
-
-
             if ((int) numeric_Size.Value <= 0)
             {
                 numeric_Size.Value = 1;
